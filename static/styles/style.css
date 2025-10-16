@@ -1,0 +1,33 @@
+span{
+        font-style: italic;
+        background-color: rgb(157, 106, 205);
+}
+
+.list-conteiner {
+        border-style: solid;
+        display: inline-block;
+
+}
+img {
+        float:right
+}
+.nav-container {
+        display: flex;
+        justify-content: space-between;
+}
+.nav-container>nav>ul{
+        display:flex;
+        list-style:none;
+}
+
+.nav-container>nav>ul>li>a{
+        display: block;
+        padding: 10px;
+        border-style: solid;
+}
+
+@media (max-width:900px){
+        .nav-containerl{
+                flex-direction: column;
+        }
+}
